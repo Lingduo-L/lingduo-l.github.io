@@ -1,4 +1,4 @@
-# Personal Website
+# [Linda L's Personal Website](https://lingduo-l.github.io/)
 
 A personal portfolio website to showcase projects, life experiences, and achievements. 
 
