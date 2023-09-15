@@ -29,7 +29,7 @@
 title: LindaL's World # 网站的名称
 author: Linda L # 网站作者的名称
 email: lingduoluo109@gmail.com # 网站作者的电子邮件
-url: https://lindal-website # 网站的根地址
+url: https://lindal-website.com # 网站的根地址
 baseurl: "" # 网站的子路径，例如 "/blog"（如果你的站点不应使用子路径，请将其留空）
 description: > # 网站的描述（允许多行）
   Welcome to LindaL's World, a space to share my experiences, adventures and thoughts.
