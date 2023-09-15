@@ -1,7 +1,7 @@
 ---
 layout: post
 slug: Healthcare-Accessibility-Analysis-ABM-ArcGIS
-title: Healthcare Accessibility Analysis using Agent-Based Modeling (ABM) and ArcGIS
+title: Healthcare Accessibility Analysis
 custom_date: "2023-04-01"
 ---
 
