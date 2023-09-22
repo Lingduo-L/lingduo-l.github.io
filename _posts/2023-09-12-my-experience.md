@@ -1,7 +1,7 @@
 ---
 layout: post
-slug: my-resume
-title: My Resume
+slug: my-experience
+title: My Experiences
 custom_date: "2023-09-12"
 ---
 # Lingduo(Linda) Luo
