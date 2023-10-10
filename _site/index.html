@@ -32,10 +32,10 @@
       <div class="w">
         <header>
   <h1>LindaL's World</h1><p>Welcome to LindaL's World, a space to share my experiences, adventures and thoughts.
-</p></header><ul><li>About Linda L 👩🏻</li><ul><li>A graduate from USC with a focus on GIS/Spatial Data Science. A basketball🏀 enthusiast and a nature🌏 lover.</li><li>Contact Me ✉️</li><li><a href="https://github.com/Lingduo-L">My Github💻</a></li><li><a href="https://www.instagram.com/lluuuoooo/?igshid=YTQwZjQ0NmI0OA%3D%3D">My Instagram📱</a></li></ul><li>L's Academia/Work 📝</li><ul><li>
+</p></header><ul><li>About Linda L 👩🏻</li><ul><li>A graduate from USC with a focus on GIS/Spatial Data Science. A basketball🏀 enthusiast and a nature🌏 lover.</li><li>Contact Me ✉️</li><li><a href="https://github.com/Lingduo-L">My Github💻</a></li><li><a href="https://www.linkedin.com/in/lingduo">My LinkedIn🖥</a></li><li><a href="/files/Resume_LindaL.pdf">My Resume🖨</a></li><li><a href="https://www.instagram.com/lluuuoooo/?igshid=YTQwZjQ0NmI0OA%3D%3D">My Instagram📱</a></li></ul><li>L's Academia/Work 📝</li><ul><li>
           <!-- <span>2023-09-12</span> -->
           <span>2023-09-12</span>
-          <a href="/my-resume.html">my resume</a>
+          <a href="/my-experience.html">my experiences</a>
         </li><li>
           <!-- <span>2023-05-10</span> -->
           <span>2023-05-10</span>
@@ -51,16 +51,35 @@
         </li><li>
           <!-- <span>2020-07-08</span> -->
           <span>2020-07-08</span>
-          <a href="/very-very-very-long-title-and-very-very-very-short-content.html">very very very long title and very very very short content</a>
+          <a href="/language-tests.html">language tests</a>
         </li><li><a href="archive.html">More ...</a></li></ul><li>L's Life 🗺</li><ul><li>
           <!-- <span>2020-07-08</span> -->
           <span>2020-07-08</span>
           <a href="/language-tests.html">language tests</a>
-        </li><li>
-          <!-- <span>2020-07-07</span> -->
-          <span>2020-07-07</span>
-          <a href="/example2.html">example2</a>
-        </li></ul><li><a href="feed.xml">L's Hobbies and Interests 🏕</a></li><li>Resources 📚</li><ul><li>with subitems</li><ul><li>with subsubitems</li><li><a href="about">example page</a></li></ul></ul></ul>
+        </li></ul><li><a href="feed.xml">L's Hobbies and Interests 🏕</a></li><li>Resources 📚</li><ul><li>with subitems</li><ul><li>with subsubitems</li><li><a href="about">example page</a></li></ul></ul></ul><!-- [Play Blackhole Game](/blackholegame.html) -->
+
+<!-- Play Game 按钮 -->
+<p><button id="playGameButton">Play Game</button></p>
+
+<!-- 游戏的 iframe，初始时设置为隐藏 -->
+<iframe id="gameIframe" src="/blackholegame.html" frameborder="0" style="display:none; position:fixed; top:15%; left:15%; width:70%; height:70%;"></iframe>
+
+<script>
+    // 获取 Play Game 按钮和游戏的 iframe 元素
+    const playGameButton = document.getElementById('playGameButton');
+    const gameIframe = document.getElementById('gameIframe');
+
+    // 为 Play Game 按钮添加点击事件监听器
+    playGameButton.addEventListener('click', function() {
+        // 当按钮被点击时，切换 iframe 的显示状态
+        if (gameIframe.style.display === 'none') {
+            gameIframe.style.display = 'block'; // 显示 iframe
+        } else {
+            gameIframe.style.display = 'none'; // 隐藏 iframe
+        }
+    });
+</script>
+
 
       </div>
     </main>
