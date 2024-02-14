@@ -18,10 +18,25 @@
       {%-include goat_counter.html-%}
     {%-endif-%}
 
+
+    <!-- GPT Chatbox Container
+  <div id="gpt-chatbox">
+    <input type="text" id="user-input" placeholder="Ask me anything...">
+    <button onclick="getGPTResponse()">Send</button>
+    <div id="gpt-response"></div>
+  </div> -->
+
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+
+    <!-- GPT Chatbox Script
+  <script type="text/javascript">
+    // JavaScript code to handle the chat interaction
+    // and call the OpenAI API
+  </script> -->
+
   </body>
 </html>
