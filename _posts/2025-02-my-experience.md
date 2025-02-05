@@ -14,9 +14,10 @@ custom_date: "2025-02"
 
 ## Experience
 
-### Hidonix Inc, Los Angeles (https://www.hidonix.com/)
+### [Hidonix Inc, Los Angeles] (https://www.hidonix.com/)
 ***October 2024 - Now*** 
-GIS Expert ***November 2023 - October 2024*** 
+GIS Expert ***November 2023 - October 2024***
+
 Project Manager ***October 2024 - Now*** 
 
 ### Research Assistant at Department of RS and GIS, Guangzhou Institute of Geography
